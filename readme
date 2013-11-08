@@ -4,3 +4,5 @@ brought by NRV optimization
 however from the result, there is nothing different
 
 Do I miss anything?
+
+from a blog, it says if there is no explicit copy constructor, the compiler can also generate an implicit copy constructor. And therefore it is the compiler rather than the existance of copy constructor that determines whether to implement NRV optimization
